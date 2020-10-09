@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+
+#delete from BST, general data structures exercise
 class Solution(object):
     def deleteNode(self, root, key):
         if not root: return None
