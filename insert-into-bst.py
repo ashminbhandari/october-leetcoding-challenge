@@ -1,3 +1,4 @@
+#insert into bst, #day 6
 class Solution(object):
     def insertIntoBST(self, root, val):
         if (root == None):
