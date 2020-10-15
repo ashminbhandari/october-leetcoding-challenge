@@ -19,7 +19,7 @@ class Solution(object):
             return max(nums[0], nums[1])
                     
         if len(nums) == 3:
-            max(nums[0], nums[1])
+            max(nums[0], nums[1], nums[2])
       
         return max(nums[0] + self.robOne(nums[2:len(nums) - 1]), self.robOne(nums[1:]))
        
