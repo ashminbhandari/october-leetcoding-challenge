@@ -4,14 +4,13 @@ class TrieNode:
         self.children = OrderedDict()
         self.words = []
 
-    #trie class with ability to search as well as insert
+#trie class with ability to search as well as insert
 class Trie:
     def __init__(self):
         self.root = TrieNode()
 
     def insert(self, word):
         node = self.root
-
         for letter in word:
             if letter not in node.children:
                 node.children[letter] = TrieNode()
@@ -33,7 +32,6 @@ class Trie:
                     payload.append([])
                 break
         return payload
-
 
 class Solution(object):
     def suggestedProducts(self, products, searchWord):
