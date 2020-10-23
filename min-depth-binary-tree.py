@@ -16,10 +16,3 @@ class Solution(object):
             depth += 1
             stack = tmp
         return depth
-
-
-
-
-
-
-
