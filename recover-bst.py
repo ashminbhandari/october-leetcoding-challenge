@@ -11,10 +11,3 @@ class Solution(object):
         for i in range(len(self.srted)):
             self.srted[i].val = srt[i]
         return root
-
-
-
-
-
-
-
