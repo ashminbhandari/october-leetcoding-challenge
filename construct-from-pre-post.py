@@ -7,7 +7,3 @@ class Solution(object):
         root.left = self.constructFromPrePost(pre[1 : idx + 1], post[ : idx])
         root.right = self.constructFromPrePost(pre[idx + 1 : ], post[idx : -1])
         return root
-
-
-
-
