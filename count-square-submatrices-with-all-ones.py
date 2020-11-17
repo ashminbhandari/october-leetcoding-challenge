@@ -26,8 +26,7 @@ class Solution(object):
             for j in range(len(mat[0])):
                 pj = j
                 for pi in range(i, len(mat)):
-                    if pj >= len(mat[0]) or cpx[pi][pj] == 0: break
-                    print cpx[pi][pj], cpy[pi][pj]
+                    if pj >= len(mat[0]): break
                     if cpy[pi][pj] >= (pi - i) + 1 and cpx[pi][pj] >= (pi - i) + 1: sq += 1
                     else: break
                     pj += 1
