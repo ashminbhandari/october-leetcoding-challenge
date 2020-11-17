@@ -23,5 +23,4 @@ class Solution(object):
                                 mi = mat[x][j]
                             rects += mi
                         else: break
-
         return rects
