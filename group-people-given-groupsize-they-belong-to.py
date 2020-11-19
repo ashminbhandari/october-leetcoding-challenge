@@ -2,7 +2,6 @@ class Solution(object):
     def groupThePeople(self, groupSizes):
         m = {}
         for i in range(len(groupSizes)):
-            print m
             if groupSizes[i] not in m:
                 m[groupSizes[i]] = [i]
             else:
